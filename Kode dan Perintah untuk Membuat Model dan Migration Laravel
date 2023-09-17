@@ -17,13 +17,13 @@ class Category extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+    protected $fillable = [				/* -> tambahkan kode ini */
         'name', 'image', 'slug'
     ];
 
     public function posts(){
         return $this->hasMany(Post::class);
-    }
+    }							/* -> sampai kode ini */
 
 }
 
@@ -45,9 +45,9 @@ return new class extends Migration
     {
         Schema::create('categories', function (Blueprint $table) {
             $table->id();
-            $table->string('image');
+            $table->string('image');			/* -> tambahkan kode ini */
             $table->string('name');
-            $table->string('slug')->unique();
+            $table->string('slug')->unique();		/* -> sampai kode ini */
             $table->timestamps();
         });
     }
@@ -75,7 +75,7 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+    protected $fillable = [						/* -> tambahkan kode ini */
         'title', 'slug', 'category_id', 'user_id', 'content', 'image'
     ];
 
@@ -89,7 +89,7 @@ class Post extends Model
 
     public function views(){
         return $this->belongsTo(PostView::class);
-    }
+    }									/* -> sampai kode ini */
 
 }
 		
@@ -112,12 +112,12 @@ return new class extends Migration
     {
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
-            $table->string('title');
+            $table->string('title');					/* -> tambahkan kode ini */
             $table->string('slug')->unique();
             $table->foreignId('category_id')->references('id')->on('categories')->cascadeOnDelete();
             $table->foreignId('user_id')->references('id')->on('users')->cascadeOnDelete();
             $table->text('content');
-            $table->string('image');
+            $table->string('image');					/* -> sampai kode ini */
             $table->timestamps();
         });
     }
@@ -146,9 +146,9 @@ class PostView extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+    protected $fillable = [					/* -> tambahkan kode ini */
         'post_id', 'views'
-    ];
+    ];								/* -> sampai kode ini */
 
 }
 
@@ -170,8 +170,8 @@ return new class extends Migration
     {
         Schema::create('post_views', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('post_id')->references('id')->on('posts')->cascadeOnDelete();
-            $table->integer('views');
+            $table->foreignId('post_id')->references('id')->on('posts')->cascadeOnDelete();  /* ->tambahkan kode ini */
+            $table->integer('views');							     /* ->sampai kode ini */
             $table->timestamps();
         });
     }
@@ -199,9 +199,9 @@ class Slider extends Model
 {
     use HasFactory;
 
-    protected $fillable = [
+    protected $fillable = [				/* ->tambahkan kode ini */
         'image', 'link'
-    ];
+    ];							/* ->sampai kode ini */
 }
 
 
@@ -222,8 +222,8 @@ return new class extends Migration
     {
         Schema::create('sliders', function (Blueprint $table) {
             $table->id();
-            $table->string('image');
-            $table->string('link')->nullable();
+            $table->string('image');			/* ->tambahkan kode ini */
+            $table->string('link')->nullable();		/* ->sampai kode ini 8/
             $table->timestamps();
         });
     }
@@ -237,4 +237,6 @@ return new class extends Migration
     }
 };
 
-link yt: 
+
+
+referensi link yt: 
