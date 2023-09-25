@@ -1,6 +1,6 @@
 Fitur dasar aplikasi pengingat tugas
 Untuk siswa:
-  1. CRUD dasar akun siswa: siswa dapat membuat, mengubah,menghapus akun.
+  1. Akun siswa: Siswa dapat membuat, mengubah,menghapus akun.
   2. *Dashboard Siswa:* Setelah login, siswa akan diarahkan ke dashboard pribadi mereka. Dashboard ini memberikan gambaran tentang tugas yang harus diselesaikan, tugas yang mendekati tenggat waktu, dan notifikasi terbaru.
   3. *Daftar Tugas:* Siswa dapat mengakses daftar tugas yang telah diberikan oleh guru. Mereka bisa melihat judul, deskripsi, dan tenggat waktu tugas.
   4. *Pengingat Tugas:* Jika ada tugas yang mendekati tenggat waktu, siswa akan menerima pemberitahuan pengingat untuk memastikan mereka tidak melewatkan tenggat waktu.
@@ -15,28 +15,14 @@ Untuk siswa:
 
 
 Untuk Guru: 
-  1. *CRUD dasar untuk akun guru:* guru dapat membuat, mengubah,dan menghapus akun.
-  2. *Dashboard Guru:* Setelah login, guru akan diarahkan ke dashboard pribadinya. Dashboard ini akan memberikan gambaran umum tentang tugas yang diberikan, tugas yang mendekati tenggat waktu, dan notifikasi terbaru.
-  3. *Buat Tugas Baru:* Guru dapat membuat tugas baru dengan mengklik tombol "Buat Tugas" di dashboard. Mereka akan diminta untuk memberikan judul, deskripsi, tenggat waktu, dan jika perlu, melampirkan materi tambahan.
-  4. *Pengaturan Tugas:* Guru dapat melihat daftar tugas yang telah dibuat dan tugas yang sedang berlangsung. Mereka dapat mengklik tugas tertentu untuk mengedit detail atau menghapusnya.
-  5. *Penugasan Kelompok:* Jika ingin memberikan tugas kepada kelompok, guru dapat memilih opsi "Tugas Kelompok" saat membuat tugas dan memilih anggota kelompok yang dituju.
-  6. *Pemantauan Kemajuan:* Guru dapat melihat kemajuan siswa dalam menyelesaikan tugas. Mereka dapat mengklik tugas untuk melihat status dan komentar yang diberikan oleh siswa.
-  7. *Umpan Balik dan Penilaian:* Setelah siswa mengumpulkan tugas, guru dapat memberikan umpan balik dan penilaian. Guru bisa memberi komentar pada tugas atau memberikan skor.
-  8. *Rekapitulasi Kelas:* Guru dapat mengakses rekapitulasi tugas yang telah diberikan dalam satu pandangan. Ini membantu dalam mengelola beban kerja dan melihat sejarah tugas.
-  9. *Pengaturan Akun:* Guru memiliki opsi untuk mengelola pengaturan akun mereka, termasuk perubahan kata sandi, foto profil, atau informasi kontak.
-  10. *Logout:* Guru dapat keluar dari aplikasi dengan aman ketika mereka selesai menggunakan.
-
-Untuk Admin:
-  1. CRUD dasar untuk akun admin: Superadmin dapat membuat, mengubah,menghapus akun admin,siswa,dan guru.
-  2. *Manajemen Akun:* Admin dapat membuat, mengedit, atau menghapus akun pengguna (guru dan siswa) di aplikasi.
-  3. *Pengaturan Peran:* Admin bisa menentukan peran dan hak akses untuk setiap pengguna (guru atau siswa).
-  4. *Pengawasan Keseluruhan:* Admin memiliki pandangan keseluruhan tentang aktivitas dalam aplikasi, termasuk tugas yang diberikan, tugas yang sudah selesai, dan umpan balik yang diberikan.
-  5. *Dashboard Administratif:* Admin memiliki dashboard khusus yang memberikan gambaran tentang statistik keseluruhan, seperti jumlah tugas yang diberikan, jumlah siswa, jumlah guru, dan sebagainya.
-  6. *Manajemen Tugas Guru:* Admin dapat melihat dan mengelola tugas yang diberikan oleh guru kepada siswa.
-  7. *Pemantauan Aktivitas:* Admin dapat melihat aktivitas pengguna dalam aplikasi, termasuk login, pengaturan tugas, dan penilaian.
-  8. *Manajemen Materi Tambahan:* Admin bisa mengelola materi tambahan yang tersedia untuk siswa dan guru, seperti bahan pelajaran atau panduan.
-  9. *Pemulihan Kata Sandi:* Admin dapat membantu pengguna yang lupa kata sandi dengan mereset kata sandi mereka dengan metode selain otp dengan email seperti otp dengan nomor HP.
-  10. *Laporan dan Statistik Siswa:* Admin dapat menghasilkan laporan tentang penggunaan aplikasi, kemajuan siswa, dan aktivitas pengguna lainnya.
-  11. *Pengaturan Aplikasi:* Admin memiliki akses ke pengaturan umum aplikasi, seperti pengaturan notifikasi dan integrasi dengan sistem lain.
-  12. *Pengelolaan Kelas dan Kelompok:* Jika ada fitur kelas atau kelompok, admin dapat mengelola pembagian kelas, penugasan kelompok, dan lain-lain.
-  13. Logout dan Keamanan:* Admin memiliki opsi untuk logout dan mengelola keamanan aplikasi, termasuk pengaturan keamanan data.
+  1. Akun guru: Guru dapat membuat, mengubah, dan menghapus akun.
+  2. *Manajemen Akun Siswa:* Guru dapat membuat, mengedit, atau menghapus akun siswa di aplikasi.
+  3. *Dashboard Guru:* Setelah login, guru akan diarahkan ke dashboard pribadinya. Dashboard ini akan memberikan gambaran umum tentang tugas yang diberikan, tugas yang mendekati tenggat waktu, dan notifikasi terbaru.
+  4. *Buat Tugas Baru:* Guru dapat membuat tugas baru dengan mengklik tombol "Buat Tugas" di dashboard. Mereka akan diminta untuk memberikan judul, deskripsi, tenggat waktu, dan jika perlu, melampirkan materi tambahan.
+  5. *Pengaturan Tugas:* Guru dapat melihat daftar tugas yang telah dibuat dan tugas yang sedang berlangsung. Mereka dapat mengklik tugas tertentu untuk mengedit detail atau menghapusnya.
+  6. *Penugasan Kelompok:* Jika ingin memberikan tugas kepada kelompok, guru dapat memilih opsi "Tugas Kelompok" saat membuat tugas dan memilih anggota kelompok yang dituju.
+  7. *Pemantauan Kemajuan:* Guru dapat melihat kemajuan siswa dalam menyelesaikan tugas. Mereka dapat mengklik tugas untuk melihat status dan komentar yang diberikan oleh siswa.
+  8. *Umpan Balik dan Penilaian:* Setelah siswa mengumpulkan tugas, guru dapat memberikan umpan balik dan penilaian. Guru bisa memberi komentar pada tugas atau memberikan skor.
+  9. *Rekapitulasi Kelas:* Guru dapat mengakses rekapitulasi tugas yang telah diberikan dalam satu pandangan. Ini membantu dalam mengelola beban kerja dan melihat sejarah tugas.
+  10. *Pengaturan Akun:* Guru memiliki opsi untuk mengelola pengaturan akun mereka, termasuk perubahan kata sandi, foto profil, atau informasi kontak.
+  11. *Logout:* Guru dapat keluar dari aplikasi dengan aman ketika mereka selesai menggunakan.
