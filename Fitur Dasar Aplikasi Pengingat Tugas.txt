@@ -1,7 +1,7 @@
 Fitur dasar aplikasi pengingat tugas
 
   Untuk siswa:
-    1.	Register:	Siswa dapat membuat akun baru.
+    1.	Register: Siswa dapat membuat akun baru.
 
     2.	Mengedit Profil: Siswa dapat mengedit profil akun.
 
@@ -9,13 +9,13 @@ Fitur dasar aplikasi pengingat tugas
 
     4.	Melihat Profil:	Siswa dapat melihat profil akunnya sendiri dan profil siswa lain
 
-    5.	Melihat Notifikasi:	Siswa dapat melihat notifikasi aplikasi.
+    5.	Melihat Notifikasi: Siswa dapat melihat notifikasi aplikasi.
 
-    6.	Melihat Dashboard:	Siswa mendapatkan dashboard ringkasan dari tugas yang diberikan/yang telah diberikan.
+    6.	Melihat Dashboard: Siswa mendapatkan dashboard ringkasan dari tugas yang diberikan/yang telah diberikan.
 
-    7.	Melihat Daftar Tugas:	Siswa dapat mengakses daftar tugas yang telah diberikan oleh guru. Mereka bisa melihat judul, deskripsi, dan tenggat waktu tugas.
+    7.	Melihat Daftar Tugas: Siswa dapat mengakses daftar tugas yang telah diberikan oleh guru. Mereka bisa melihat judul, deskripsi, dan tenggat waktu tugas.
 
-    8.	Mengunggah Tugas:	Jika ada tugas yang mendekati tenggat waktu, siswa akan menerima pemberitahuan pengingat untuk memastikan mereka tidak melewatkan tenggat waktu.
+    8.	Mengunggah Tugas: Jika ada tugas yang mendekati tenggat waktu, siswa akan menerima pemberitahuan pengingat untuk memastikan mereka tidak melewatkan tenggat waktu.
 
     9.	Detail Tugas: Siswa dapat mengklik tugas tertentu dalam daftar untuk melihat rincian lengkap, termasuk deskripsi, materi tambahan, dan komentar dari guru.
 
@@ -25,11 +25,11 @@ Fitur dasar aplikasi pengingat tugas
 
     12.	Pengingat Studi: Selain tugas, siswa juga dapat menggunakan fitur pengingat untuk mengingatkan tentang jadwal studi atau ujian penting lainnya.
 
-    13.	Kalender Pribadi:	Siswa dapat melihat tugas dan jadwal studi mereka dalam kalender pribadi yang terintegrasi dengan aplikasi.
+    13.	Kalender Pribadi: Siswa dapat melihat tugas dan jadwal studi mereka dalam kalender pribadi yang terintegrasi dengan aplikasi.
 
     14.	Filter Tugas: Siswa dapat menyaring prioritas tugas penting dan tugas biasa.
     
-    15	Pencatatan Kemajuan:	Siswa dapat melihat tugas yang telah selesai, membantu mereka mengelola waktu dan memonitor pencapaian.
+    15	Pencatatan Kemajuan: Siswa dapat melihat tugas yang telah selesai, membantu mereka mengelola waktu dan memonitor pencapaian.
     
     16.	Logout:	Siswa dapat keluar dari aplikasi ketika selesai menggunakan.
 
@@ -37,24 +37,24 @@ Fitur dasar aplikasi pengingat tugas
 
 
   Untuk Guru: 
-    1.		Membuat akun	Guru: dapat membuat, mengubah,dan menghapus akun guru sendiri dan siswa.
+    1. Membuat akun: Guru dapat membuat, mengubah,dan menghapus akun guru sendiri dan siswa.
 
-    2.		Mengedit akun:	Setelah login, guru akan diarahkan ke dashboard pribadinya. Dashboard ini akan memberikan gambaran umum tentang tugas yang diberikan, tugas yang mendekati tenggat waktu, dan notifikasi terbaru.
+    2. Mengedit akun: Setelah login, guru akan diarahkan ke dashboard pribadinya. Dashboard ini akan memberikan gambaran umum tentang tugas yang diberikan, tugas yang mendekati tenggat waktu, dan notifikasi terbaru.
 
-    3.		Menghapus akun:	Guru dapat membuat tugas baru dengan mengklik tombol "Buat Tugas" di dashboard. Mereka akan diminta untuk memberikan judul, deskripsi, tenggat waktu, dan jika perlu, melampirkan materi tambahan.
+    3. Menghapus akun: Guru dapat membuat tugas baru dengan mengklik tombol "Buat Tugas" di dashboard. Mereka akan diminta untuk memberikan judul, deskripsi, tenggat waktu, dan jika perlu, melampirkan materi tambahan.
 
-    4.		Dashboard Administratif:	Guru memiliki dashboard yang memberikan gambaran tentang statistik keseluruhan, seperti jumlah tugas yang diberikan, jumlah siswa, dan sebagainya.
+    4. Dashboard Administratif:	Guru memiliki dashboard yang memberikan gambaran tentang statistik keseluruhan, seperti jumlah tugas yang diberikan, jumlah siswa, dan sebagainya.
 
-    5.		Pengaturan Tugas: Guru dapat melihat daftar tugas yang telah dibuat dan tugas yang sedang berlangsung. Mereka dapat mengklik tugas tertentu untuk mengedit detail atau menghapusnya.
+    5. Pengaturan Tugas: Guru dapat melihat daftar tugas yang telah dibuat dan tugas yang sedang berlangsung. Mereka dapat mengklik tugas tertentu untuk mengedit detail atau menghapusnya.
 
-    6.		Penugasan Kelompok:	Jika ingin memberikan tugas kepada kelompok, guru dapat memilih opsi "Tugas Kelompok" saat membuat tugas dan memilih anggota kelompok yang dituju.
+    6. Penugasan Kelompok: Jika ingin memberikan tugas kepada kelompok, guru dapat memilih opsi "Tugas Kelompok" saat membuat tugas dan memilih anggota kelompok yang dituju.
 
-    7.		Pemantauan Kemajuan:	Guru dapat melihat kemajuan siswa dalam menyelesaikan tugas. Mereka dapat mengklik tugas untuk melihat status dan komentar yang diberikan oleh siswa.
+    7. Pemantauan Kemajuan: Guru dapat melihat kemajuan siswa dalam menyelesaikan tugas. Mereka dapat mengklik tugas untuk melihat status dan komentar yang diberikan oleh siswa.
 
-    8.		Umpan Balik Dan Penilaian:	Setelah siswa mengumpulkan tugas, guru dapat memberikan umpan balik dan penilaian. Guru bisa memberi komentar pada tugas atau memberikan skor.
+    8. Umpan Balik Dan Penilaian: Setelah siswa mengumpulkan tugas, guru dapat memberikan umpan balik dan penilaian. Guru bisa memberi komentar pada tugas atau memberikan skor.
 
-    9.		Rekapitulasi Kelas:	Guru dapat mengakses rekapitulasi tugas yang telah diberikan dalam satu pandangan. Ini membantu dalam mengelola beban kerja dan melihat sejarah tugas.
+    9. Rekapitulasi Kelas: Guru dapat mengakses rekapitulasi tugas yang telah diberikan dalam satu pandangan. Ini membantu dalam mengelola beban kerja dan melihat sejarah tugas.
 
-    10.		Pengaturan Akun:	Guru memiliki opsi untuk mengelola pengaturan akun mereka, termasuk perubahan kata sandi, foto profil, atau informasi kontak.
+    10. Pengaturan Akun: Guru memiliki opsi untuk mengelola pengaturan akun mereka, termasuk perubahan kata sandi, foto profil, atau informasi kontak.
 
-    11.		Logout:	Guru dapat keluar dari aplikasi dengan aman ketika mereka selesai menggunakan.
+    11. Logout: Guru dapat keluar dari aplikasi dengan aman ketika mereka selesai menggunakan.
